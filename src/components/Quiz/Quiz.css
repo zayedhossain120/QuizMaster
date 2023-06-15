@@ -1,0 +1,17 @@
+.quiz-main-container {
+    padding: 30px;
+}
+
+.question-container {
+    font-weight: bold;
+}
+
+.quiz-correct {
+    color: green;
+
+}
+
+.quiz-incorrect {
+    color: red;
+
+}

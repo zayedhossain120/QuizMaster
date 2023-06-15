@@ -1,13 +1,57 @@
+.topic-container {
+    background-color: rgba(153, 172, 166, 0.257);
+    height: calc(100vh - 189px);
+    padding-top: 75px;
+}
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    margin-top: 75px;
-
+    justify-content: space-evenly;
+    justify-items: center;
 }
 
 .card {
-
+    width: 80%;
     border-radius: 10px;
-    border: 1px solid red;
+    border: 2px solid rgba(255, 0, 102, 0.162);
+    box-shadow: 10px 12px 22px 3px rgba(0, 0, 0, 0.32);
+    -webkit-box-shadow: 10px 12px 22px 3px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 10px 12px 22px 3px rgba(0, 0, 0, 0.32);
+}
+
+
+.card img {
+    width: 100%;
+    opacity: 100%;
+    border-bottom: 1px solid red;
+}
+
+.card img:hover {
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+
+.card h3 {
+    text-align: center;
+    color: rgba(255, 0, 100, 1);
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-details p {
+    font-weight: 500;
+}
+
+.card-btn {
+    background-color: rgba(255, 236, 0, 1);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    border: 1px solid rgba(255, 0, 102, 0.087);
 }

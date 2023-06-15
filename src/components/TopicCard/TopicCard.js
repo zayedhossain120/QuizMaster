@@ -1,12 +1,17 @@
 import React from 'react';
 import './TopicCard.css'
+import { Link } from 'react-router-dom';
 const TopicCard = ({ quizTopic }) => {
-    const { logo, name, total } = quizTopic;
+    const { logo, name, total, id } = quizTopic;
+
     return (
         <div className="card">
             <img src={logo} alt="" />
-            <h4>{name}</h4>
-            <p>Total: {total}</p>
+            <h3>{name}</h3>
+            <div className='card-details'>
+                <p>Quiz: {total}</p>
+                <Link to={`quiz/${id}`}>Start Quiz</Link>
+            </div>
         </div>
     );
 };
