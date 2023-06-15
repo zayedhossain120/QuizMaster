@@ -10,7 +10,7 @@ const TopicCard = ({ quizTopic }) => {
             <h3>{name}</h3>
             <div className='card-details'>
                 <p>Quiz: {total}</p>
-                <Link to={`quiz/${id}`}>Start Quiz</Link>
+                <Link className='card-btn' to={`quiz/${id}`}>Start Quiz</Link>
             </div>
         </div>
     );
