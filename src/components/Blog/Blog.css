@@ -1,0 +1,18 @@
+.blog-container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-top: 75px;
+
+}
+
+.blog-container div {
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 0, 102, 0.162);
+    box-shadow: 10px 12px 22px 3px rgba(0, 0, 0, 0.32);
+    -webkit-box-shadow: 10px 12px 22px 3px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 10px 12px 22px 3px rgba(0, 0, 0, 0.32);
+}
