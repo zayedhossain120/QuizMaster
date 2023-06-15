@@ -1,4 +1,21 @@
 .chart-container {
-    align-items: center;
-    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.statics-container {
+    display: block;
+}
+
+.reachart-head {
+    padding: 25px;
+    text-align: center;
+    color: rgba(255, 0, 100, 1);
+}
+
+.result {
+    color: rgb(251, 224, 23);
 }
